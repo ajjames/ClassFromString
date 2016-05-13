@@ -1,3 +1,6 @@
+# Swift 2: Create an Instance of a Class from a String
+## (by calling a custom initializer??)
+
 (This repo contains a Xcode 7.3.1 Swift playground with the below text)
 
 First of all, Swift is just awesome.
