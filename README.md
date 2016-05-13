@@ -77,7 +77,7 @@ It is important to create your class string this way in order to correctly find 
 ```
 if let carType = NSClassFromString(classString) as? Car.Type {
     let car = carType.init(make: "Lamborghini")
-    car.description
+    car.description   // output: "Lamborghini is a Supercar."
 }
 ```
 To make this possible, we use `NSClassFromString` to turn the string into a optional `AnyClass` object.
